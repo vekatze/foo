@@ -1,0 +1,14 @@
+import
+- core.list
+- core.text
+- core.sum
+end
+
+use core.list
+use core.text
+
+define main(): i64 =
+  let str = "hello, world!\n" in
+  let _ on str = core.text::write(str) in
+  0
+end
